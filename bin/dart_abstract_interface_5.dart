@@ -1,5 +1,10 @@
-import 'package:dart_abstract_interface_5/dart_abstract_interface_5.dart' as dart_abstract_interface_5;
+import 'persegi.dart';
+
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_abstract_interface_5.calculate()}!');
+  
+  Persegi bujur =Persegi(5);
+
+  print('Luas ${bujur.hitungLuas()}');
+
 }
